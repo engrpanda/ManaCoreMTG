@@ -1,50 +1,41 @@
 # ManaCore Privacy Policy
 
-**Effective date:** September 30, 2026
-**App:** ManaCore (Android, package `com.manacore.engrpanda`)
+_Last updated: 15 October 2026 (version 0.16.1)_
 
-ManaCore is a Magic: The Gathering deck-building and life-counter app. It does not require an account and does not collect, sell, or share personal information. It contains no ads and no analytics or tracking.
+ManaCore does not require an account. It contains no ads and no analytics or tracking tools, and the developer does not receive, collect, sell or share your personal information. Some features do talk to third-party services (listed below), and Google handles purchases and optional device backups.
 
 ## What stays on your device
+Your decks, folders, collection, wishlist, life-counter players and their photos, match history (including a screenshot of the table saved when a match ends), Guess the Art scores and answers, settings, and simulation results are stored on your device. So are downloaded card data and card art, kept so the app works offline, and the star rating you tap on the Home screen.
 
-Your decks, collection, wishlist, life-counter profiles and photos, settings, and simulation results are stored only on your device. Backups you create are saved to a location you choose. The developer has no access to this data.
+## Backups
+• Android device backup: ManaCore allows Android's automatic backup, so if device backup is turned on, Google may back up the app's data (decks, collection, photos, match screenshots and settings) to your Google account. You control this in your Android settings. The developer cannot see it.
+• ManaCore backup: Settings > Backup saves a file to a location you choose, and Automatic Backup can save to a folder you choose, which may be a cloud folder such as Google Drive. That provider's own policy applies.
 
 ## Camera and photos
-
-The camera is used only when you scan a card or take a profile photo. Card text is recognized on-device, and images are not uploaded by ManaCore. If you deny the camera permission, you can still add cards by typing their names.
+The camera is used only when you scan a card or take a profile photo. Text on the card is recognized on your device with Google ML Kit's on-device text recognition; the camera image is not uploaded by ManaCore. The text it reads (a card name) is sent to Scryfall to identify the card. Profile photos from the camera or gallery are copied into the app's private storage. Card art or deck images are saved to your Pictures folder only when you tap Save.
 
 ## Network requests
-
-To work, the app contacts third-party services and sends only what each request needs, such as card names or a deck link:
-
-- **Scryfall**: card data, images and prices
-- **Commander Spellbook**: known combos, including the "Combo of the Day" on the Home screen
-- **Frankfurter**: currency exchange rates
-- **Deck sites (Moxfield, Archidekt, TappedOut, MTGGoldfish)**: only when you import a deck from a link
-- **News sites**: article feeds shown in the app
-
-These services receive standard connection data (such as your IP address) and are governed by their own privacy policies. ManaCore does not send them your name, email, or any account information, because it has none.
+To work, the app contacts third-party services and sends only what each feature needs:
+• Scryfall: card names you type or scan, searches (including set and year), and the names of the cards in your decks, collection and wishlist, to get card data, images and prices.
+• Commander Spellbook: the names of cards in a deck, to find known combos.
+• Frankfurter: a request for exchange rates (no card or deck information).
+• Deck websites (Moxfield, Archidekt, TappedOut, MTGGoldfish): only when you paste a deck link or choose Refresh from link. The app requests that deck page. Some pages are opened in a hidden in-app browser so they can be read, which means that site may run its scripts and set cookies, as in any website visit. Only the deck page you gave is loaded.
+• News sites: article feeds, headlines and thumbnails shown on Home, loaded from each publisher's servers. Opening an article takes you to the publisher's site.
+• Google Play: ManaCore PRO is bought and managed through Google Play Billing. ManaCore never sees your payment details; it only learns whether PRO is active and remembers that on your device. You can manage or cancel your subscription in Google Play.
+• Rating card: tapping Rate on Play opens the Google Play listing, and Send feedback opens your email app. ManaCore does not send your rating anywhere itself.
+These services receive standard connection data (such as your IP address and the app's name and version) and are governed by their own privacy policies.
 
 ## Sharing and exports
+Exporting or sharing a deck, collection, list or image happens only when you choose it, through the app you pick in the Android share sheet.
 
-Exporting or sharing a deck happens only when you choose it, through the app you pick in the Android share sheet.
-
-## Data retention and deletion
-
-Everything ManaCore stores lives on your device. You can delete it at any time by clearing the app's storage in Android settings or uninstalling the app. Because the developer holds no copy of your data, there is nothing to request from or delete on a server.
+## Your choices
+You can delete decks, folders, matches, Guess the Art history and card images inside the app (Settings > Delete All Card Images). Clearing the app's data or uninstalling removes everything ManaCore stores on the device. Backups kept by Google or in a folder you chose are managed there.
 
 ## Children
-
 ManaCore is not directed at children under 13 and does not knowingly collect information from anyone, including children.
 
-## Disclaimer
-
-ManaCore is an unofficial, fan-made tool and is not affiliated with, endorsed, sponsored, or approved by Wizards of the Coast. Magic: The Gathering and its card names, text, symbols and imagery are property of Wizards of the Coast LLC.
-
 ## Changes
-
-This policy may be updated with new versions of the app. The effective date above shows when it last changed.
+This policy may be updated with new versions of the app.
 
 ## Contact
-
-Questions about this policy: **support.engrpanda@gmail.com**
+support.engrpanda@gmail.com
