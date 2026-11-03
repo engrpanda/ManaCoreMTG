@@ -1,11 +1,11 @@
 # ManaCore Privacy Policy
 
-_Last updated: 15 October 2026 (version 0.16.1)_
+_Last updated: 3 November 2026 (version 0.17.0)_
 
 ManaCore does not require an account. It contains no ads and no analytics or tracking tools, and the developer does not receive, collect, sell or share your personal information. Some features do talk to third-party services (listed below), and Google handles purchases and optional device backups.
 
 ## What stays on your device
-Your decks, folders, collection, wishlist, life-counter players and their photos, match history (including a screenshot of the table saved when a match ends), Guess the Art scores and answers, settings, and simulation results are stored on your device. So are downloaded card data and card art, kept so the app works offline, and the star rating you tap on the Home screen.
+Your decks, folders, collection, wishlist, life-counter players and their photos, match history (including a screenshot of the table saved when a match ends), Guess the Art scores and answers, settings, and simulation results are stored on your device. So are downloaded card data and card art, kept so the app works offline, and the star rating you tap on the Home screen. Swipe suggestions also keep, for each commander, the cards last recommended (with their card data), the cards you skipped in each deck, and how many swipes you have made today (for the free daily limit).
 
 ## Backups
 • Android device backup: ManaCore allows Android's automatic backup, so if device backup is turned on, Google may back up the app's data (decks, collection, photos, match screenshots and settings) to your Google account. You control this in your Android settings. The developer cannot see it.
@@ -16,8 +16,9 @@ The camera is used only when you scan a card or take a profile photo. Text on th
 
 ## Network requests
 To work, the app contacts third-party services and sends only what each feature needs:
-• Scryfall: card names you type or scan, searches (including set and year), and the names of the cards in your decks, collection and wishlist, to get card data, images and prices.
+• Scryfall: card names you type or scan, searches (including set and year), and the names of the cards in your decks, collection and wishlist, to get card data, images and prices. For suggestions it also receives searches built from your commander's colors and abilities.
 • Commander Spellbook: the names of cards in a deck, to find known combos.
+• EDHREC (json.edhrec.com): the name of your deck's commander (or both partner commanders), when you use Swipe suggestions or look up a commander's synergies, to fetch card ideas. The response is saved on your device so it can work offline.
 • Frankfurter: a request for exchange rates (no card or deck information).
 • Deck websites (Moxfield, Archidekt, TappedOut, MTGGoldfish): only when you paste a deck link or choose Refresh from link. The app requests that deck page. Some pages are opened in a hidden in-app browser so they can be read, which means that site may run its scripts and set cookies, as in any website visit. Only the deck page you gave is loaded.
 • News sites: article feeds, headlines and thumbnails shown on Home, loaded from each publisher's servers. Opening an article takes you to the publisher's site.
