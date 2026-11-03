@@ -16,6 +16,28 @@
 
 ---
 
+## Table of contents
+
+- [Overview](#overview)
+- [Features](#features)
+  - [Deck building and collection](#deck-building-and-collection)
+  - [Testing your deck](#testing-your-deck)
+  - [Discovery](#discovery)
+  - [Life Counter](#life-counter)
+  - [Appearance](#appearance)
+- [Automated scanning with a microcontroller (experimental)](#automated-scanning-with-a-microcontroller-experimental)
+  - [Quick start](#quick-start)
+  - [The protocol](#the-protocol)
+  - [Example: Arduino Uno + HC-05/06 + servo feeder](#example-arduino-uno--hc-0506--servo-feeder)
+  - [Example: ESP32 over WiFi](#example-esp32-over-wifi)
+  - [Troubleshooting](#troubleshooting)
+- [Download](#download)
+- [Data sources and credits](#data-sources-and-credits)
+- [Privacy](#privacy)
+- [Legal](#legal)
+- [Support](#support)
+- [License](#license)
+
 ## Overview
 
 ManaCore helps Magic: The Gathering players see how consistently a deck actually performs *before* it hits the table. Build or import a decklist, then run it through:
