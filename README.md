@@ -225,9 +225,9 @@ More detail is in [`docs/mcu-automation.md`](docs/mcu-automation.md).
 
 ## Download
 
-**[⬇️ Download the latest APK](https://github.com/engrpanda/ManaCore/releases/latest)**
+**[Get ManaCore on Google Play](https://play.google.com/store/apps/details?id=com.manacore.engrpanda)**
 
-Requires Android 8.0 or newer. Allow "Install unknown apps" for your browser or file manager when prompted.
+Requires Android 8.0 or newer.
 
 ## Data sources and credits
 
